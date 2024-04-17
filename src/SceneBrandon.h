@@ -7,14 +7,13 @@
 #include "GameObject.h"
 #include "GameObjects/Player.h"
 
-class GameObject;
 class Particle;
 
 class SceneBrandon {
 public:
     void update(); //first update all objects, then delete those marked for deletion
     void draw();
-    SceneBrandon(const char * filename);
+    SceneBrandon(const char *filename);
     //Collision detection functions
     bool touchesWall(Vector2 pos, Vector2 size);
     bool touchesWall(Vector2 pos);

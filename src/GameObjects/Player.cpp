@@ -7,3 +7,7 @@
 void Player::Update() {
 
 }
+
+void Player::Draw() {
+    Color Render
+}
