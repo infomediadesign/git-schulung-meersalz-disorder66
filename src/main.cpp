@@ -48,7 +48,7 @@ int main() {
         BeginTextureMode(canvas);
         { //Within this block is where we draw our app to the canvas and YOUR code goes.
             ClearBackground(RED);
-            DrawText("Hello, world!", 10, 10, 30, LIGHTGRAY);
+            DrawText("Ich bin dumm!", 10, 10, 30, LIGHTGRAY);
             DrawTexture(myTexture, 10, 100, WHITE);
         }
         EndTextureMode();
