@@ -5,6 +5,8 @@
 #include "raylib.h"
 
 #include "config.h"
+#include "SceneBrandon.h"
+#include "SceneAdriana.h"
 
 int main() {
     // Raylib initialization
@@ -24,6 +26,7 @@ int main() {
     RenderTexture2D canvas = LoadRenderTexture(Game::ScreenWidth, Game::ScreenHeight);
     float renderScale{}; // this and the line below are relevant to drawing later.
     Rectangle renderRec{};
+    auto
 
     // Main game loop
     while (!WindowShouldClose()) // Detect window close button or ESC key

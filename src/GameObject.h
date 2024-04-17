@@ -7,13 +7,14 @@
 
 class GameObject {
 public:
-    virtual void update() = 0;
-    virtual void draw() = 0;
+    virtual void Update() = 0;
+    virtual void Draw() = 0;
 
     Vector2 getPosition() const;
 protected:
     int64_t id;
-    Vector2 postion;
+    Vector2 position;
+    float size;
     Texture2D sprite;
     std::string name;
 };

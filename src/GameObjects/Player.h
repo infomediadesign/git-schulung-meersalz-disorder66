@@ -9,8 +9,8 @@
 #include "../GameObject.h"
 
 class Player : public GameObject{
-
-
+    void Update() override;
+    void Draw() override;
 };
 
 
