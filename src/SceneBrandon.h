@@ -5,6 +5,7 @@
 #include "raymath.h"
 
 class GameObject;
+class Particle;
 
 class SceneBrandon {
 public:
@@ -19,6 +20,7 @@ public:
 private:
     std::vector<GameObject*> objects;
     std::vector<int> tileMap;
+    std::vector<Particle*> particles;
     int mapWidth;
     int mapHeight;
 };

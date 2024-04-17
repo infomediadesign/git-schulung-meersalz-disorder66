@@ -7,11 +7,11 @@
 
 class GameObject {
 public:
-    void update();
-    void draw();
+    virtual void update() = 0;
+    virtual void draw() = 0;
 
     Vector2 getPosition() const;
-private:
+protected:
     int64_t id;
     Vector2 postion;
     Texture2D sprite;
