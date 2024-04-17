@@ -12,7 +12,9 @@ add_executable(${PROJECT_NAME} main.cpp
         SceneBrandon.cpp
         SceneBrandon.h
         SceneAdriana.cpp
-        SceneAdriana.h)
+        SceneAdriana.h
+        GameObject.cpp
+        GameObject.h)
 
 # Add config.h.in file
 configure_file(config.h.in config.h)
