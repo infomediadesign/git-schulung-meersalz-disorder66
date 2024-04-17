@@ -47,7 +47,7 @@ int main() {
         // For the letterbox we draw on canvas instad
         BeginTextureMode(canvas);
         { //Within this block is where we draw our app to the canvas and YOUR code goes.
-            ClearBackground(RED);
+            ClearBackground(WHITE);
             DrawText("Ich bin dumm!", 10, 10, 30, LIGHTGRAY);
             DrawTexture(myTexture, 10, 100, WHITE);
         }
